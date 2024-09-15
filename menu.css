@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    place-content: center;
+    min-height: 110vh;
+    text-align: center;
+    background-image: linear-gradient(90deg,rgb(0, 0, 0),rgb(49, 60, 121),rgb(0, 0, 0));
+}
+h1{
+    top: 10px;
+    margin-bottom:50px ;
+    color: white;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-size: 3.5em;
+}
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    transition: 200ms;
+    width: 80%; /* ou ajuste conforme necessário */
+}
+.jogos {
+    background: var(--img) center center / cover no-repeat;
+    transition: all 300ms ease-out;
+    display: flex;
+    height: 300px;
+    width: 320px;
+    box-shadow: 0 8px 16px rgba(248, 248, 248, 0.363);
+}
+.jogos {
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .jogos.hovered {
+    transform: scale(1.2);
+    z-index: 2;
+  }
+  img{
+    border: 10px solid dodgerblue;
+  }
+#exit img {
+    max-height: 70px;
+    max-width: 70px;
+    height: auto;
+    width: auto;
+    border: 0px;
+}
+#exit {
+    top: 20px;
+    left: 10px;
+    position: fixed;
+}

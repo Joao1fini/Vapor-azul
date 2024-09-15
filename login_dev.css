@@ -1,0 +1,42 @@
+.menu {
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 35%;
+    display: inline-block;
+    height: 300px;
+    width: 400px;
+}
+body{
+    background-image: linear-gradient(90deg,rgb(0, 0, 0),rgb(49, 60, 121),rgb(0, 0, 0));
+}
+input{
+    background-color: white;
+}
+.login{
+    height: 35px;
+    width: 55px;
+}
+img{
+    position: absolute;
+    width: 300px;
+    height: 300px;   
+    top: 100px;
+}
+.cadastro {
+    color: white;
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.363);
+    text-align: center;
+}
+#exit img {
+    top: 20px;
+    max-height: 70px;
+    max-width: 70px;
+    height: auto;
+    width: auto;
+    border: 0px;
+}
+#exit {
+    left: 10px;
+    position: fixed;
+}
